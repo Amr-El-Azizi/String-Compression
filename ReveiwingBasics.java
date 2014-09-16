@@ -1,33 +1,17 @@
-
-/**
- * Write a description of class ReveiwingBasics here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class ReveiwingBasics
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class ReveiwingBasics
-     */
     public ReveiwingBasics()
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    boolean b = false;
+    boolean b2 = false;
+        
+    int x = 5;
+    int y = 5;
+    
+    String f = "f";
+    String f2 = new String("f");
+    String f3 = f;
+    System.out.println(f==f2);
+    System.out.println(f3==f);
     }
 }
